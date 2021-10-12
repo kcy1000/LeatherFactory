@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- disable -->
+  <item android:state_enabled="false">
+    <shape>
+      <corners android:radius="10dp"/>
+      <!--<stroke android:color="#ffffff" android:width="1px"/>-->
+      <solid android:color="@color/c_eeeeee"/>
+      <!--<padding android:bottom="4dip" android:left="8dip"
+          android:right="8dip" android:top="4dip"/>-->
+    </shape>
+  </item>
+
+  <!-- 클릭했을 때 -->
+  <item android:state_pressed="true">
+    <shape>
+      <corners android:radius="10dp"/>
+      <solid android:color="@color/c_006db3"/>
+    </shape>
+  </item>
+
+  <item >
+    <shape>
+      <corners android:radius="10dp"/>
+      <solid android:color="@color/c_0288d1"/>
+    </shape>
+  </item>
+</selector>

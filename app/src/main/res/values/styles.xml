@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Default color...Button, Icon-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Defining that new color in ColorPrimaryDark StatusBar-->
+        <item name="colorPrimaryDark">@color/c_ffffff</item>
+        <item name="android:colorBackground">@color/c_ffffff</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+    </style>
+
+    <style name="FullWidth.Dialog" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:windowAnimationStyle">@style/DialogAnimation</item>-->
+    </style>
+
+    <style name="Popup" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.ActionbarActivity" parent="Theme.AppCompat.Light" />
+    <!-- important : parent 를 이것으로. -->
+    <style name="EditTextStyle" parent="Widget.Design.TextInputLayout">
+        <!--<style name="EditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">-->
+
+        <!-- unFocus 상태일때 밑줄 색. -->
+        <item name="colorControlNormal">@color/c_dddddd</item>
+
+        <!-- Focus 상태일때 밑줄 색. -->
+        <item name="boxStrokeColor">@color/c_5eb8ff</item>
+
+        <!-- hint 색. -->
+        <item name="android:textColorHint">@color/c_cccccc</item>
+
+        <!-- floating hint 색. -->
+        <item name="hintTextColor">@color/c_5eb8ff</item>
+
+        <!-- cursor 색. -->
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+
+        <!-- xml 에서 한 속성을 여기서도 할 수 있습니다. -->
+        <item name="helperTextTextColor">@color/c_ff8484</item>
+        <item name="errorTextColor">@color/c_ff8484</item>
+        <item name="boxStrokeErrorColor">@color/c_ff8484</item>
+    </style>
+
+    <!-- AppbarLayout -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <!-- Toolbar -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

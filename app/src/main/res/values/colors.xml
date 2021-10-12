@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기본생성컬러 -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 내가 추가한 컬러 -->
+    <color name="colorPrimary">#0288d1</color>
+    <color name="colorAccent">#4f48f6</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="c_000000">#000000</color>
+    <color name="c_cccccc">#cccccc</color>
+    <color name="c_f06613">#f06613</color>
+    <color name="c_2a2a2a">#2a2a2a</color>
+    <color name="c_ffffff">#ffffff</color>
+    <color name="c_bbbbbb">#bbbbbb</color>
+    <color name="c_7f7f7f">#7f7f7f</color>
+    <color name="c_fdfdfd">#fdfdfd</color>
+    <color name="c_888888">#888888</color>
+    <color name="c_4f48f6">#4f48f6</color>
+    <color name="c_006db3">#006db3</color>
+    <color name="c_0288d1">#0288d1</color>
+    <color name="c_5eb8ff">#5eb8ff</color>
+    <color name="c_eeeeee">#eeeeee</color>
+    <color name="c_e1f5fe">#e1f5fe</color>
+    <color name="c_6963fb">#6963fb</color>
+    <color name="c_e4e8ff">#e4e8ff</color>
+    <color name="c_dddddd">#dddddd</color>
+    <color name="c_222222">#222222</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_ff8484">#ff8484</color>
+    <color name="c_1bcd9d">#1bcd9d</color>
+    <color name="c_f5f5f5">#f5f5f5</color>
+    <color name="c_8983f9">#8983f9</color>
+    <color name="c_b9b7ec">#b9b7ec</color>
+    <color name="c_b3e5fc">#b3e5fc</color>
+    <color name="c_ff707b">#ff707b</color>
+    <color name="c_85dbfe">#85dbfe</color>
+    <color name="c_fdd589">#fdd589</color>
+    <color name="c_9ea6be">#9ea6be</color>
+    <color name="c_aaaaaa">#aaaaaa</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="c_b9caff">#b9caff</color>
+    <color name="c_e8eaf6">#e8eaf6</color>
+    <color name="c_bebbff">#bebbff</color>
+    <color name="c_434483">#434483</color>
+    <color name="c_333333">#333333</color>
+    <color name="c_fc568b">#fc568b</color>
+    <color name="c_33ffffff">#33ffffff</color>
+    <color name="c_110f24">#110f24</color>
+    <color name="c_171a1d">#171a1d</color>
+    <color name="c_ff3131">#ff3131</color>
+</resources>
